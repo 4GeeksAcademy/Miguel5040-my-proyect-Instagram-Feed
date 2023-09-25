@@ -1,0 +1,110 @@
+/* Nav */
+
+.div-derecha-nav{
+    display: flex;
+}
+
+.div-derecha-nav button, .dropdown{
+    margin: 0 2px;
+}
+
+.log-out{
+    border-top: 1px solid lightgray;
+    padding-top: 3px;
+}
+
+.modal-buttons i{
+    font-size: 20px;
+    color: black;
+}
+
+.modal-buttons button{
+    background-color: rgb(235, 233, 233);
+}
+
+/* Botonera */
+
+/* .botonera button{
+    border: none;
+    background-color: transparent;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.botonera i{
+    font-size: 20px;
+}
+
+.botonera i:hover{
+    color: blue;
+} */
+
+.botonera-pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.botonera-pro li{
+    margin: 0 10px;
+}
+
+.botones{
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+/* Galeria */
+
+.foto img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.foto{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Feed (columna) */
+
+.contenido-padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+    max-width: 60%;
+    border: solid 1px lightgray;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 0;
+}
+
+.contenido header{
+    height: 60px;
+}
+
+.header-contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.contenido-imagen img{
+    width: 100%;
+}
+
+.contenido-footer{
+    padding: 15px;
+    height: auto;
+}
